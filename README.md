@@ -6,7 +6,7 @@ This repository contains all files needed to reproduce the problem described
 
 To check the chef-solo run, just call
 
-> chef -c config.rb -o outside
+> chef-solo -c config.rb -o outside
 
 To check chefspec, just call
 
