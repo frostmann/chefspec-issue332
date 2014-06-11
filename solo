@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm /tmp/*.txt
+chef-solo -c config.rb -o outside
